@@ -1,0 +1,141 @@
+/* XS -> tamanho da tela padrão*/
+h1 {
+    color: red;
+}
+
+/* SM >= 576px -> tamanho de tela pequena maior ou igual a 576px */
+@media (min-width: 576px) {
+    h1 {
+        color: blue;
+    }
+}
+
+/* SM >= 768px -> tamanho de tela de tablet maior ou igual a 768px*/
+@media (min-width: 768px) {
+    h1 {
+        color: green;
+    }
+}
+
+/* MD >= 992px -> tamanho de tela de mini-notebook maior ou igual a 992px*/
+@media (min-width: 992px) {
+    h1 {
+        color: purple;
+    }
+}
+
+/* XL >= 1200px -> tamanho de tela monitor maior ou igual a 1200px */
+@media (min-width: 1200px) {
+    h1 {
+        color: gold;
+    }
+}
+
+/* XXL >= 1400px -> tamanho de tela de TV maior ou igual a 1400px */
+@media (min-width: 1400px) {
+    h1 {
+        color: teal;
+    }
+}
+
+.btn-primary {
+    background-color: red;
+}
+
+.container {
+    background-color: #999;
+}
+
+.container-fluid {
+    background-color: #888;
+}
+
+/* container breakpoint */
+
+.container-sm {
+    margin-bottom: 30px;
+    border: 2px solid blue;
+}
+
+.container-md {
+    margin-bottom: 30px;
+    border: 2px solid crimson;
+}
+
+.container-lg {
+    margin-bottom: 30px;
+    border: 2px solid chocolate;
+}
+
+/* Grid */
+
+.container {
+    border: 5px dotted blue;
+    padding: 10px;
+    margin-bottom: 300px;
+}
+
+.row {
+    border: 5px solid purple;
+    height: 100px;
+    padding: 10px;
+    margin: 0;
+}
+
+.col,
+.col-4,
+.col-2,
+.col-1,
+.col-11,
+.col-6,
+.col-3 {
+    border: 2px dashed red;
+    height: 100%;
+    margin: 0;
+}
+
+#largura-limitada {
+    max-width: 500px;
+}
+
+/* Alinhamento Vertical */
+
+.vertical {
+    height: 250px;
+    border-color: coral;
+}
+
+.vertical .row{
+    height: 100%;
+}
+
+.vertical .col-6,
+.vertical .col-3,
+.vertical .col-4 {
+    height: 50px;
+}
+
+/* Offset */
+
+#offset {
+    height: auto;
+}
+
+#offset .col-md-3 {
+    height: 50px;
+    border: 2px solid red;
+}
+
+/* gutter */
+#gutter .row {
+    height: 200px;
+}
+
+#gutter .col-6 {
+    margin: auto;
+    height: 50px;
+}
+
+.row p {
+    border: 2px solid green;
+}
