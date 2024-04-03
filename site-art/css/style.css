@@ -67,7 +67,10 @@ a, i {
 
 #navbar a:hover {
     color: #C1B696;
+    text-decoration: underline;
 }
+
+
 
 /* MAIN IMAGE */
 
